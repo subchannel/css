@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-subchannel",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A shared stylelint configuration for maintaining code style and consistency across Subchannel projects",
   "keywords": [
     "subchannel",
