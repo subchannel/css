@@ -5,6 +5,8 @@ A _hopefully_ sane CSS code styleguide for [Subchannel](https://subchannel.io) p
 ![](assets/sass-logo.png)
 ![](assets/stylelint-logo.png)
 
+[![Codeship Status for subchannel/css](https://app.codeship.com/projects/0966fa90-7572-0134-8054-36b396ab9a96/status?branch=master)](https://app.codeship.com/projects/179373)
+
 ## Installation and Usage
 
 First install stylelint and the Subchannel configuration and save them to your project’s `devDependencies` using [npm](https://npmjs.com). _You may choose to install them globally but that is up to you._
