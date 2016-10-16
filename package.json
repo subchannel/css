@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-config-subchannel",
+  "version": "0.0.0",
+  "description": "A shared stylelint configuration for maintaining code style and consistency across Subchannel projects",
+  "keywords": [
+    "subchannel",
+    "stylelint",
+    "stylelint-config"
+  ],
+  "homepage": "https://github.com/subchannel/css#readme",
+  "bugs": "https://github.com/subchannel/css/issues",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Joe Bilt <joe@subchannel.io>",
+  "files": [
+    "lib",
+    "AUTHORS"
+  ],
+  "main": "lib/index.js",
+  "repository": "subchannel/css",
+  "scripts": {
+    "pretest": "eslint lib test",
+    "test": "NODE_ENV=test mocha test"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.0",
+    "eslint-config-subchannel": "^3.0.0",
+    "mocha": "^3.1.2"
+  }
+}
